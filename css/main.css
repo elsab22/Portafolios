@@ -37,6 +37,8 @@ html {
   text-shadow: none;
 }
 
+
+
 /*
  * A better looking default horizontal rule
  */
@@ -97,7 +99,25 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#B2B6B5;
+  background: #F0F0EF;
+}
 
+ul{
+list-style-type: none;
+}
+
+li{
+display: inline-block;
+margin: 120 20px 20 20;
+}
+
+img{
+  width:100%;
+  max-width: 100%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
