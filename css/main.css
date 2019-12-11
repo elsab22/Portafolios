@@ -164,13 +164,9 @@ body{
 }
 
 #pie-pagina-contacto{
-  position: fixed;
-  bottom: 0;
-  width: 100%
-  height:100%;
+  width: 100%;
   text-align: center;
-  
-
+  margin-top: 200px;
 }
 
 
@@ -206,39 +202,41 @@ img{
 
 .rectangulo-1-index{
   width: 400px;
-  height: 300px;
+  height: 250px;
   background: #F0F0EF;
   margin: 0 auto;
-  margin-top: 90px;
-  margin-right: 0px;
+  margin-top: 60px;
+  margin-right: -70px;
+  margin-left: 110px;
   padding: 94px;
   color: #E2AC36;
   font-size: 32px;
-  text-align: unset;
+  text-align: center;
 }
 
 .rectangulo-2-index{
   width: 400px;
-  height: 300px;
+  height: 250px;
   background: #F0F0EF;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: 60px;
+  margin-left: 180px;
   padding: 94px;
   color: #E2AC36;
   font-size: 32px;
-  text-align: right;
+  text-align: center;
 }
 
 .rectangulo-3-index{
   width: 400px;
-  height: 300px;
+  height: 250px;
   background: #F0F0EF;
-  
+  margin-right: 10px;
   margin-top: 90px;
   padding: 94px;
   color: #E2AC36;
   font-size: 32px;
-  text-align:left;
+  text-align:center;
 }
 
 a{
@@ -250,6 +248,16 @@ a:hover{
     color: #C1CFD3;
   text-decoration: all;
   transition: 1s ease;
+}
+
+
+.navlink{
+  text-decoration: none;
+}
+
+
+.navlink:hover{
+  text-decoration: none;
 }
 
 /* ==========================================================================
